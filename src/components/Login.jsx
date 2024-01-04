@@ -37,12 +37,12 @@ const Login = () => {
         <div className="flex justify-between text-White gap-[45px]">
           <div className="flex gap-[10px] justify-between items-center cursor-pointer">
             <Image src={LockWhat} alt="LockWhat" />
-            <div className="text-Quattrocento font-bold text-[14px] leading-[15.51px]">
+            <div className="font-Quattrocento font-bold text-[14px] leading-[15.51px]">
               Forgot Password ?
             </div>
           </div>
           <div className="flex gap-[10px] justify-between items-center cursor-pointer">
-            <div className="text-Quattrocento font-bold text-[14px] leading-[15.51px]">
+            <div className="font-Quattrocento font-bold text-[14px] leading-[15.51px]">
               Remember Me
             </div>
             <Image src={Tick} alt="Tick" />
@@ -52,14 +52,14 @@ const Login = () => {
         <div className="w-[228px] flex gap-[37px] px-[15px] py-[10px] bg-White/35 rounded-md">
           <div class="flex items-center gap-[15px]">
             <div className="w-6 h-6 border-White border-[1px] rounded-sm cursor-pointer"></div>
-            <span className="text-Quattrocento text-White font-bold text-[14px] leading-[15.51px]">
+            <span className="font-Quattrocento text-White font-bold text-[14px] leading-[15.51px]">
               I’m not a robot
             </span>
           </div>
           <Image src={Recaptcha} alt="Recaptcha" />
         </div>
 
-        <div className="w-[290px] rounded-xl shadow-white bg-BlueColor text-Quattrocento text-center text-White font-bold text-[23px] leading-[25.48px] py-3 cursor-pointer">
+        <div className="w-[290px] rounded-xl shadow-white bg-BlueColor font-Quattrocento text-center text-White font-bold text-[23px] leading-[25.48px] py-3 cursor-pointer">
           Login
         </div>
       </div>
