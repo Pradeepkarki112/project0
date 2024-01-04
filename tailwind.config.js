@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
+        Quattrocento: ["Quattrocento Sans", "sans-serif"],
       },
     },
   },
